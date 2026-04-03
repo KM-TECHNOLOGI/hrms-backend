@@ -1,0 +1,79 @@
+# 🔐 Environment variables
+.env
+.env.*
+!.env.example
+
+# 📦 Node modules
+node_modules/
+
+# 🧾 Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 🗂️ Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# 📁 Coverage directory (testing)
+coverage/
+
+# 🧪 Test output
+test-output/
+jest.config.js
+
+# 📦 Build files
+dist/
+build/
+
+# 🧠 Cache
+.cache/
+*.cache
+
+# 🖥️ OS files
+.DS_Store
+Thumbs.db
+
+# 🧰 IDE / Editor files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# 🐳 Docker (optional)
+docker-compose.override.yml
+
+# 🔑 Security
+*.pem
+*.key
+
+# 📊 Database (local files)
+*.sqlite
+*.db
+
+# 📁 Uploads (if any)
+uploads/
+public/uploads/
+
+# 🧪 Temporary files
+tmp/
+temp/
+
+# 📦 Package lock (optional - team based)
+# package-lock.json
+
+# 🧵 Kafka logs (if local)
+kafka-logs/
+
+# 🧱 MongoDB local data (if using local volume)
+data/db/
+
+# 🧾 Debug
+*.swp
+*.bak
